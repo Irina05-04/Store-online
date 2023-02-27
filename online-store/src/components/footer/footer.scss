@@ -1,0 +1,26 @@
+.footer{
+   width: 100%;
+   margin-top: 50px;
+   height: 60px;
+   background-color: maroon;
+   &__wrapper{
+     max-width: 1200px;
+     margin: 0 auto;
+     display: flex;
+     column-gap: 30px;
+     justify-content: center;
+     align-items: center;
+   }
+   &__gitLink{
+     color: rgba($color: #000000, $alpha: 0.6);
+     text-decoration: none;
+     &:hover{
+       cursor: pointer;
+       color: rgba($color: #000000, $alpha: 1.0);
+     }
+   }
+}
+.schoolLogo{
+   width: 60px;
+   height: auto;
+ }

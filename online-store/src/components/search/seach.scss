@@ -1,0 +1,14 @@
+.seach{
+   display: flex;
+   justify-content: flex-end;
+   column-gap: 10px;
+   align-items: center;
+   &__image{
+     width: 20px;
+     height: 20px;
+   }
+ }
+ .seachImg{
+   width: 20px;
+   height: auto;
+ }

@@ -1,0 +1,28 @@
+.sort-wrapper{
+   max-width: 1200px;
+   margin: 0 auto;
+   justify-content: space-between;
+   align-items: center;
+   display: flex;
+   column-gap: 20px;
+   margin-bottom: 10px;
+ }
+ .sort{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   column-gap: 20px;
+   &__name,
+   &__date{
+     color: rgba($color: #000000, $alpha: 0.6);
+     padding-bottom: 3px;
+     border-bottom: 1px dashed rgba($color: #000000, $alpha: 0.6);
+     transition: all 0.3s ease;
+     &:hover{
+       color: rgba($color: #000000, $alpha: 1.0);
+       border-bottom: 1px dashed rgba($color: #000000, $alpha: 1);
+       cursor: pointer;
+     }
+   }
+ }
+ 

@@ -1,0 +1,52 @@
+.filterRange{
+   border: 1px solid rgba($color: #000000, $alpha: 0.2);
+   border-radius: 2px;
+   width: 400px;
+   padding: 5px 10px;
+ }
+
+.filterRangeName{
+  font-style: 24px;
+  color: rgba(128, 0, 0, 0.5);
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding-bottom: 3px;
+  width: 180px;
+  border-bottom: 1.5px solid rgba(128, 0, 0, 0.745);
+}
+.slider,
+.sliderDate{
+  width: 200px;
+  cursor: pointer;
+}
+.noUi-connect{
+  background-color: maroon !important;
+}
+.price,
+.date{
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  position: relative;
+  height: 60px;
+}
+.min-slider-date{
+   position: absolute;
+   left: 110px;
+   top: 0;
+ }
+ .max-slider-date{
+   position: absolute;
+   right: 60px;
+   top: 0;
+ }
+ .min-slider-price{
+   position: absolute;
+   left: 55px;
+   top: 0;
+ }
+ .max-slider-price{
+   position: absolute;
+   right: 120px;
+   top: 0;
+ }
